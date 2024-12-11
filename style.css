@@ -17,6 +17,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .white {
@@ -33,6 +34,9 @@ html {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.icon {
+    width: 30px;
 }
 /* END-MENU */
 
@@ -82,13 +86,29 @@ ul {
 
 h2 {
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .section {
     display: flex;
     flex-wrap: wrap;
 
+}
+
+.foto {
+    width: 50%;
+    padding: 5px;
+}
+
+p {
+    color: gray;
+}
+
+.set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 /* END-SECTION */
