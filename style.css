@@ -1,9 +1,9 @@
 .container-app {
     height: 100vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    color: white;
 }
 /* START MENU */
 .menu {
@@ -30,8 +30,29 @@
     flex-direction: column;
     gap: 10px;
 }
-/* END MENU */
+/* END-MENU */
 
+
+/* UPGRADE */
+.upgrade {
+    height: 10%;
+    background-color: rgb(43, 37, 37);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.upgrade-1 {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+/* END-UPGRADE */
+
+/* SECTION */
 .music {
     height: 100%;
     width: 90%;
@@ -39,21 +60,18 @@
     flex-direction: column;
     border: 1px solid black;
 }
-
-.upgrade {
-    height: 10%;
-    border: 1px solid black;
-    background-color: red;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-}
-
 .canzoni {
     height: 100%;
-    border: 1px solid black;
-    background-color: yellow;
+    background-color: rgb(65, 65, 62);
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+/* END-SECTION */
+
 
 .play-bar {
     height: 50px;
