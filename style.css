@@ -1,3 +1,7 @@
+html {
+    font-family: sans-serif;
+}
+
 .container-app {
     height: 100vh;
     display: flex;
@@ -63,11 +67,28 @@
 .canzoni {
     height: 100%;
     background-color: rgb(65, 65, 62);
+    padding-inline: 20px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    color: gray;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 /* END-SECTION */
