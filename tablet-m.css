@@ -4,8 +4,17 @@
     padding-top: 25px;
 }
 
+.section-3 {
+    display: flex;
+}
+
 .x {
     display: block;
 }
 
+.foto {
+        width: calc(100% / 4);     
+   }
 }
+
+

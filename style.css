@@ -91,6 +91,7 @@ hr {
     background-color: rgb(65, 65, 62);
     padding-inline: 20px;
     overflow-y: auto;
+    height: 100%;
 }
 
 ul {
@@ -136,6 +137,10 @@ p {
 }
 
 .section-2 {
+    display: none;
+}
+
+.section-3 {
     display: none;
 }
 
