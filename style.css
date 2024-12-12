@@ -19,8 +19,12 @@ html {
     align-items: center;
 }
 
-.white {
-    background-color: white;
+#logo-small {
+    width: 25px;
+}
+
+#logo-big {
+    display: none;
 }
 
 .user-1 {
@@ -36,9 +40,20 @@ html {
     gap: 10px;
     padding-bottom: 10px;
 }
-.icon {
-    width: 30px;
+
+.home {
+    display: none;
 }
+
+.icon {
+    width: 25px;
+    display: flex;
+}
+
+.playlist {
+    
+}
+
 /* END-MENU */
 
 
@@ -60,7 +75,6 @@ html {
     border: 1px solid white;
     border-radius: 50px;
     padding: 10px;
-
 }
 /* END-UPGRADE */
 
@@ -111,6 +125,7 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding-top: 5px;
 }
 
 /* END-SECTION */

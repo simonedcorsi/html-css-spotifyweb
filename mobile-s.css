@@ -1,4 +1,16 @@
 @media screen and ( min-width: 480px ) {
+#logo-big {
+    display: inline-block;
+    width: 100px;
+}
 
+#logo-small {
+    display: none;
+}
+
+.home {
+    display: inline-block;
+    padding: 2px;
+}
 
 }
