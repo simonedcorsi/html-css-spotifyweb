@@ -5,8 +5,6 @@ html {
 .container-app {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     color: white;
 }
 /* START MENU */
