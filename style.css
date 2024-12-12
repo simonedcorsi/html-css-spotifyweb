@@ -3,7 +3,7 @@ html {
 }
 
 .container-app {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -13,7 +13,6 @@ html {
 .menu {
     background-color: black;
     height: 100%;
-    width: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,13 +26,15 @@ html {
 .user-1 {
     display: flex;
     flex-direction: column;
-    gap:10px
+    gap:10px;
+    padding-top:  10px;
 }
 
 .user-2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 10px;
 }
 .icon {
     width: 30px;
@@ -43,13 +44,16 @@ html {
 
 /* UPGRADE */
 .upgrade {
-    height: 10%;
+    padding: 20px;
     background-color: rgb(43, 37, 37);
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .upgrade-1 {
@@ -62,16 +66,14 @@ html {
 
 /* SECTION */
 .music {
-    height: 100%;
     width: 90%;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
 .canzoni {
-    height: 100%;
     background-color: rgb(65, 65, 62);
     padding-inline: 20px;
+    overflow-y: auto;
 }
 
 ul {
@@ -112,9 +114,3 @@ p {
 }
 
 /* END-SECTION */
-
-
-.play-bar {
-    height: 50px;
-    background-color: black;
-}
