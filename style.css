@@ -133,4 +133,12 @@ p {
     padding-top: 5px;
 }
 
+.x {
+    display: none;
+}
+
+.section-2 {
+    display: none;
+}
+
 /* END-SECTION */
