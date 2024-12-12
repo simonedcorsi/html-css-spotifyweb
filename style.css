@@ -3,7 +3,7 @@ html {
 }
 
 .container-app {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -55,6 +55,10 @@ html {
 
 }
 
+hr {
+    color: gray;
+}
+
 /* END-MENU */
 
 
@@ -83,12 +87,12 @@ html {
 .music {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .canzoni {
     background-color: rgb(65, 65, 62);
     padding-inline: 20px;
     overflow-y: auto;
-    height: 100%;
 }
 
 ul {
