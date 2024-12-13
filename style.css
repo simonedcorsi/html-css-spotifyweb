@@ -170,3 +170,9 @@ p {
 .right-bar {
     display: flex;
 }
+
+.play {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
