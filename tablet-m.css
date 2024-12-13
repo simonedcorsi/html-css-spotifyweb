@@ -15,6 +15,11 @@
 .foto {
         width: calc(100% / 4);     
    }
+
+.radius {
+    border-radius: 100px;
+}
+
 }
 
 

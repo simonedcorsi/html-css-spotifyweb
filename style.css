@@ -3,7 +3,7 @@ html {
 }
 
 .container-app {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     color: white;
 }
@@ -63,7 +63,7 @@ hr {
 /* UPGRADE */
 .upgrade {
     padding: 20px;
-    background-color: rgb(43, 37, 37);
+    background-color:#19202c;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -88,7 +88,7 @@ hr {
     height: 100%;
 }
 .canzoni {
-    background-color: rgb(65, 65, 62);
+    background-color: #141922;
     padding-inline: 20px;
     overflow-y: auto;
     height: 100%;
@@ -130,6 +130,7 @@ p {
     align-items: center;
     gap: 10px;
     padding-top: 5px;
+    text-align: center;
 }
 
 .x {
@@ -140,8 +141,27 @@ p {
     display: none;
 }
 
-.section-3 {
-    display: none;
+/* END-SECTION */
+
+/* PLAY-BAR */
+
+.play-bar {
+    height: 10vh;
+    background-color:#36373a ;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* END-SECTION */
+.immagine {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.immagine-1 {
+    width: 18%;
+}
+
+.text {
+    padding-left: 10px;
+}
